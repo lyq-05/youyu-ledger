@@ -1,6 +1,21 @@
 # 有余记账
 
-**收支有数，生活有余。** 让日常账目成为手绘小镇里的一本生活记录。
+<p align="center">
+  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="版本" src="https://img.shields.io/github/v/release/lyq-05/youyu-ledger?include_prereleases&sort=semver&label=版本&color=42684D"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="总下载" src="https://img.shields.io/github/downloads/lyq-05/youyu-ledger/total?label=总下载&color=brightgreen"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/lyq-05/youyu-ledger?style=social"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=最后提交"></a>
+  <img alt="平台 Android" src="https://img.shields.io/badge/平台-Android-3DDC84">
+  <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.4/youyu-v0.2.4.apk"><img alt="安装包 88.7 MB" src="https://img.shields.io/badge/安装包-88.7%20MB-orange"></a>
+  <img alt="开发体验版" src="https://img.shields.io/badge/状态-开发体验版-d6a34a">
+  <img alt="不联网" src="https://img.shields.io/badge/网络-不联网-lightgrey">
+</p>
+
+<p align="center">
+  <b>收支有数，生活有余。</b><br>
+  让日常账目成为手绘小镇里的一本生活记录。
+</p>
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
