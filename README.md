@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.9/youyu-v0.2.9.apk"><img alt="安装包 87.6 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-87.6%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.10/youyu-v0.2.10.apk"><img alt="安装包 87.6 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-87.6%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.9 · 手写字体账单识别修正**：明确金额可进入人工核对，无法可靠识别的日期和账户留待填写。详见 [本次发布说明](docs/RELEASE_v0.2.9.md)。
+> 当前版本 **v0.2.10 · 悬浮核对窗口重做**：分类图标、固定保存栏；日期未识别默认今天，账户默认不使用。详见 [本次发布说明](docs/RELEASE_v0.2.10.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.9.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.9/youyu-v0.2.9.apk)** | 87.6 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.10.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.10/youyu-v0.2.10.apk)** | 87.6 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -89,6 +89,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.10](docs/RELEASE_v0.2.10.md) | 悬浮核对窗口重做 |
 | [v0.2.9](docs/RELEASE_v0.2.9.md) | 手写字体账单识别修正 |
 | [v0.2.8](docs/RELEASE_v0.2.8.md) | 松鼠主角首次接入 |
 | [v0.2.7](docs/RELEASE_v0.2.7.md) | 静态首页与小鸟保留 |
