@@ -1,0 +1,11 @@
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
+!docs/
+!docs/RELEASE_*.md
+!docs/screenshots/
+!docs/screenshots/*.png
+!releases/
+!releases/*.apk
+!releases/SHA256SUMS.txt
