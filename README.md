@@ -1,15 +1,15 @@
 # 有余记账
 
 <p align="center">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="版本" src="https://img.shields.io/github/v/release/lyq-05/youyu-ledger?include_prereleases&sort=semver&label=版本&color=42684D"></a>
-  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="总下载" src="https://img.shields.io/github/downloads/lyq-05/youyu-ledger/total?label=总下载&color=brightgreen"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="版本" src="https://img.shields.io/github/v/release/lyq-05/youyu-ledger?include_prereleases&amp;sort=semver&amp;label=%E7%89%88%E6%9C%AC&amp;color=42684D"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases"><img alt="总下载" src="https://img.shields.io/github/downloads/lyq-05/youyu-ledger/total?label=%E6%80%BB%E4%B8%8B%E8%BD%BD&amp;color=brightgreen"></a>
   <a href="https://github.com/lyq-05/youyu-ledger/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/lyq-05/youyu-ledger?style=social"></a>
-  <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=最后提交"></a>
-  <img alt="平台 Android" src="https://img.shields.io/badge/平台-Android-3DDC84">
+  <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
+  <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.4/youyu-v0.2.4.apk"><img alt="安装包 88.7 MB" src="https://img.shields.io/badge/安装包-88.7%20MB-orange"></a>
-  <img alt="开发体验版" src="https://img.shields.io/badge/状态-开发体验版-d6a34a">
-  <img alt="不联网" src="https://img.shields.io/badge/网络-不联网-lightgrey">
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.4/youyu-v0.2.4.apk"><img alt="安装包 88.7 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-88.7%20MB-orange"></a>
+  <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
+  <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
 
 <p align="center">
