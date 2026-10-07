@@ -1,1 +1,2 @@
+3199f0bb4ad78ae6d84dadcedd7fec800015ce1fa9e8b09388165c8fa7906a8c  youyu-v0.2.12.apk
 96bca03d0206ce247e4cf6475f143cc28fed4e1cbe9288eede216e3d15f28f49  youyu-v0.2.4.apk

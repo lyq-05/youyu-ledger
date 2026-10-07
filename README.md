@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.11/youyu-v0.2.11.apk"><img alt="安装包 88.4 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-88.4%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.12/youyu-v0.2.12.apk"><img alt="安装包 159.1 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-159.1%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.11 · 明细导航与简洁界面**：首页看板与流水统一到明细，底部直达统计和账户；悬浮窗按钮更紧凑。详见 [本次发布说明](docs/RELEASE_v0.2.11.md)。
+> 当前版本 **v0.2.12 · 黄粉彩铅界面与实机识别验证**：统一彩铅界面、组件与悬浮面板，更新操作指南，并改善微信账单标签识别。详见 [本次发布说明](docs/RELEASE_v0.2.12.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.11.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.11/youyu-v0.2.11.apk)** | 88.4 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.12.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.12/youyu-v0.2.12.apk)** | 159.1 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -44,9 +44,9 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 截图来自独立指南应用，仅使用虚构数据。
 
-| 首页 | 操作指南引导 | 权限引导 |
+| 首页 | 操作指南 | 记账页 |
 | --- | --- | --- |
-| ![首页](docs/screenshots/01-home.png) | ![指南引导](docs/screenshots/02-guide.png) | ![权限引导](docs/screenshots/02-permissions.png) |
+| ![首页](docs/screenshots/01-home.png) | ![指南引导](docs/screenshots/02-guide.png) | ![记账页](docs/screenshots/03-entry.png) |
 
 ## 功能
 
@@ -89,6 +89,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.12](docs/RELEASE_v0.2.12.md) | 黄粉彩铅界面、指南更新与微信识别修正 |
 | [v0.2.11](docs/RELEASE_v0.2.11.md) | 明细导航与简洁界面 |
 | [v0.2.10](docs/RELEASE_v0.2.10.md) | 悬浮核对窗口重做 |
 | [v0.2.9](docs/RELEASE_v0.2.9.md) | 手写字体账单识别修正 |
