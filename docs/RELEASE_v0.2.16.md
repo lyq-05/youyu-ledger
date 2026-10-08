@@ -4,7 +4,7 @@
 
 **开发体验版** · Android 8.0+ · 同包名、同签名，可覆盖安装。
 
-[下载 youyu-v0.2.16.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.16/youyu-v0.2.16.apk) · 124.9 MB
+[下载 youyu-v0.2.16.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.16/youyu-v0.2.16.apk) · 125.7 MB
 
 ## 本次更新
 
