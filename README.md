@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.15/youyu-v0.2.15.apk"><img alt="安装包 124.0 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-124.0%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.16/youyu-v0.2.16.apk"><img alt="安装包 124.9 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-124.9%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.15 · 微信收入与悬浮面板优化**：支持微信转账收入，修复分类页码闪烁，统一双下划线选中态，试用高置信度商品备注。详见 [本次发布说明](docs/RELEASE_v0.2.15.md)。
+> 当前版本 **v0.2.16 · 设置分类与首页细节**：六类顶部导航、字号与备注策略，首页透明标识和彩铅齿轮，书页高光修正。详见 [本次发布说明](docs/RELEASE_v0.2.16.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.15.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.15/youyu-v0.2.15.apk)** | 124.0 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.16.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.16/youyu-v0.2.16.apk)** | 124.9 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -89,6 +89,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.16](docs/RELEASE_v0.2.16.md) | 设置分类、字号与首页细节 |
 | [v0.2.15](docs/RELEASE_v0.2.15.md) | 微信转账收入、弹窗页码与备注置信度 |
 | [v0.2.14](docs/RELEASE_v0.2.14.md) | 微信账单容错、空白手动面板与首页图标 |
 | [v0.2.13](docs/RELEASE_v0.2.13.md) | 安装包瘦身、记账提速与悬浮识别排查 |
