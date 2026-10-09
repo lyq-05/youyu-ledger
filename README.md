@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.25/youyu-v0.2.25.apk"><img alt="安装包 135.9 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-135.9%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.26/youyu-v0.2.26.apk"><img alt="安装包 136.0 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-136.0%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.25 · 页面节点与窗口读取修正**：补齐无障碍读取配置，调整窗口选择和首次读取时机；微信真实支付仍待验证，多多支付尚未接入。详见 [本次发布说明](docs/RELEASE_v0.2.25.md)。
+> 当前版本 **v0.2.26 · 安装名称与截图冷却修正**：修正名称乱码，已接入渠道默认选中；截图冷却保留一次重试并单独展示结果，微信真机效果仍待验证。详见 [本次发布说明](docs/RELEASE_v0.2.26.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.25.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.25/youyu-v0.2.25.apk)** | 135.9 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.26.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.26/youyu-v0.2.26.apk)** | 136.0 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -72,7 +72,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 | 屏幕共享 | 点击悬浮按钮时截取一帧并在本机识别 | 使用悬浮识别时按系统提示授权 |
 | 无障碍服务 | 可选的悬浮文字读取、支付成功页识别；另有默认关闭的自动截图 OCR 兜底（Android 11+） | 悬浮截图识别不需要 |
 
-自动截图 OCR 开启后可能检查微信其他空文字页面，成功页图片也可能被识别；截图仅在内存处理，不保存、不上传。每分钟最多两次，识别结果需要核对。
+自动截图 OCR 开启后可能检查微信其他空文字页面，成功页图片也可能被识别；截图仅在内存处理，不保存、不上传。至少间隔8秒，冷却期间合并保留一次重试，重试前重新检查页面；识别结果需要核对。
 
 首次引导不会自动申请权限。悬浮识别的屏幕共享授权由点击入口触发。点击“现在去设置”后，在权限与识别状态页逐项配置。应用清单移除了联网权限；图片识别在本机进行。账务与备份保存在本机，请妥善保管明文导出文件。
 
@@ -92,6 +92,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.26](docs/RELEASE_v0.2.26.md) | 安装名称与截图冷却修正 |
 | [v0.2.25](docs/RELEASE_v0.2.25.md) | 页面节点与窗口读取修正 |
 | [v0.2.24](docs/RELEASE_v0.2.24.md) | 自动记账状态通知 |
 | [v0.2.23](docs/RELEASE_v0.2.23.md) | 识别场景与后台指引 |
