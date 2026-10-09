@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.27/youyu-v0.2.27.apk"><img alt="安装包 138.4 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-138.4%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.28/youyu-v0.2.28.apk"><img alt="安装包 138.4 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-138.4%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.27 · 自动识别截图调试**：可选保留最近3张实际OCR原图，本机查看并清除，便于排查错误页面。微信真机效果仍待验证。详见 [本次发布说明](docs/RELEASE_v0.2.27.md)。
+> 当前版本 **v0.2.28 · 微信支付截图 OCR 容错修正**：修正手写成功标记误读、货币符号漏读造成的拒绝，仍须核对后入账，并显示具体失败原因。详见 [本次发布说明](docs/RELEASE_v0.2.28.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.27.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.27/youyu-v0.2.27.apk)** | 138.4 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.28.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.28/youyu-v0.2.28.apk)** | 138.4 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -92,6 +92,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.28](docs/RELEASE_v0.2.28.md) | 微信支付截图 OCR 容错修正 |
 | [v0.2.27](docs/RELEASE_v0.2.27.md) | 自动识别截图调试 |
 | [v0.2.26](docs/RELEASE_v0.2.26.md) | 安装名称与截图冷却修正 |
 | [v0.2.25](docs/RELEASE_v0.2.25.md) | 页面节点与窗口读取修正 |
