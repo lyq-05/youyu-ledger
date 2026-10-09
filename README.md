@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.23/youyu-v0.2.23.apk"><img alt="安装包 136.0 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-136.0%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.24/youyu-v0.2.24.apk"><img alt="安装包 136.8 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-136.8%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.23 · 识别场景与后台指引**：按渠道展示识别范围及实测状态，补充服务状态和后台排查入口；未新增支付解析渠道。详见 [本次发布说明](docs/RELEASE_v0.2.23.md)。
+> 当前版本 **v0.2.24 · 自动记账状态通知**：显示服务连接状态，支持快捷暂停及进入设置；未改变支付解析规则。详见 [本次发布说明](docs/RELEASE_v0.2.24.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.23.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.23/youyu-v0.2.23.apk)** | 136.0 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.24.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.24/youyu-v0.2.24.apk)** | 136.8 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -66,6 +66,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 权限 | 用途 | 是否必须 |
 | --- | --- | --- |
+| 通知显示 | 显示自动记账状态通知与暂停入口 | 拒绝不关闭识别 |
 | 通知使用权 | 读取所选渠道的支付通知 | 手动记账不需要 |
 | 悬浮窗 | 显示识别入口和相关小窗 | 按需开启 |
 | 屏幕共享 | 点击悬浮按钮时截取一帧并在本机识别 | 使用悬浮识别时按系统提示授权 |
@@ -91,6 +92,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.24](docs/RELEASE_v0.2.24.md) | 自动记账状态通知 |
 | [v0.2.23](docs/RELEASE_v0.2.23.md) | 识别场景与后台指引 |
 | [v0.2.22](docs/RELEASE_v0.2.22.md) | 可选自动截图 OCR 兜底 |
 | [v0.2.21](docs/RELEASE_v0.2.21.md) | 页面节点遍历修正 |
