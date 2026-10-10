@@ -9,3 +9,4 @@
 !releases/
 !releases/*.apk
 !releases/SHA256SUMS.txt
+!docs/BANK_NOTIFICATION_SOURCES.md
