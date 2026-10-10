@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.33/youyu-v0.2.33.apk"><img alt="安装包 140.7 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-140.7%20MB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.34/youyu-v0.2.34.apk"><img alt="安装包 140.7 MB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-140.7%20MB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.33 · 事件来源识别与字段诊断**：窗口根无文字时尝试同窗口事件来源，细分支付标记和金额缺失原因。详见 [本次发布说明](docs/RELEASE_v0.2.33.md)。
+> 当前版本 **v0.2.34 · 通知服务自动恢复与成功记录**：返回应用时有限重试通知连接，独立保留最近成功识别的入口和时间。详见 [本次发布说明](docs/RELEASE_v0.2.34.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.33.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.33/youyu-v0.2.33.apk)** | 140.7 MB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.34.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.34/youyu-v0.2.34.apk)** | 140.7 MB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -92,6 +92,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.34](docs/RELEASE_v0.2.34.md) | 通知服务自动恢复与独立成功记录 |
 | [v0.2.33](docs/RELEASE_v0.2.33.md) | 事件来源识别与字段缺失诊断 |
 | [v0.2.32](docs/RELEASE_v0.2.32.md) | 无障碍对照诊断与已接收截图离页处理 |
 | [v0.2.31](docs/RELEASE_v0.2.31.md) | 提前微信空页面截图并显示分段耗时 |
