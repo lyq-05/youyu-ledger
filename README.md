@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.42/youyu-v0.2.42.apk"><img alt="安装包 149.4 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-149.4%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.43/youyu-v0.2.43.apk"><img alt="安装包 134.3 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-134.3%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.42 · 深色主题测试**：设置 → 基础开放深色主题开关，选择在重启后保留。主题仍在完善。详见 [本次发布说明](docs/RELEASE_v0.2.42.md)。
+> 当前版本 **v0.2.43 · 本地搜索与统计优化**：跨月查流水、搜索设置、周统计与收支趋势。暂停深色主题并移出安装包。详见 [本次发布说明](docs/RELEASE_v0.2.43.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.42.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.42/youyu-v0.2.42.apk)** | 149.4 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.43.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.43/youyu-v0.2.43.apk)** | 134.3 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -55,7 +55,9 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 | 日常入账 | 选择账本、收支类型、分类与金额，账户可选 |
 | 自动识别 | 总开关与渠道分别控制；查看服务连接及最近接收结果，先核对再入账 |
 | 历史补记 | 主动点击悬浮入口读取账单页，或从图片补记 |
-| 流水与统计 | 月、年和自选日期统计，账户筛选与分类预算 |
+| 流水搜索 | 当前账本全部日期，按备注、分类、账户或精确金额搜索，组合日期与金额范围筛选 |
+| 统计 | 周、月、年和自选日期统计，收支趋势、分类占比与分类预算 |
+| 设置搜索 | 搜索名称或常用词，跳转并短暂突出对应设置 |
 | 账户与资金 | 转账、还款与退款；退款按退款日冲减支出 |
 | 存钱计划 | 本地目标与分配记录，支持归档，不涉及真实划款 |
 | 数据管理 | 本地备份恢复、自定义 CSV 导入、回收站恢复 |
@@ -92,6 +94,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.43](docs/RELEASE_v0.2.43.md) | 本地搜索与统计优化，暂停深色主题 |
 | [v0.2.42](docs/RELEASE_v0.2.42.md) | 开放深色主题测试并保存选择 |
 | [v0.2.41](docs/RELEASE_v0.2.41.md) | 通知恢复、银行回归与悬浮胶囊导航 |
 | [v0.2.40](docs/RELEASE_v0.2.40.md) | 银行统一卡片与折叠渠道开关 |
