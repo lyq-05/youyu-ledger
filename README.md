@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.46/youyu-v0.2.46.apk"><img alt="安装包 70.5 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-70.5%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.47/youyu-v0.2.47.apk"><img alt="安装包 70.5 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-70.5%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.46 · 购物订单悬浮识别**：接入四个平台的订单实付字段，修正识别失败姿态，缺少日期时要求选择后保存。手写字体仍可能影响识别，继续以体验版供真机验证。详见 [本次发布说明](docs/RELEASE_v0.2.46.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v0.2.47 · 悬浮识别修正**：授权后等待再次点击，优先按当前应用匹配购物平台，并细分识别失败原因。仍需真机复测。详见 [本次发布说明](docs/RELEASE_v0.2.47.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.46.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.46/youyu-v0.2.46.apk)** | 70.5 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.47.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.47/youyu-v0.2.47.apk)** | 70.5 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -94,7 +94,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
-| [v0.2.46](docs/RELEASE_v0.2.46.md) | 购物订单实付识别、失败姿态与日期核对 |
+| [v0.2.47](docs/RELEASE_v0.2.47.md) | 购物订单实付识别、失败姿态与日期核对 |
 | [v0.2.45](docs/RELEASE_v0.2.45.md) | 统计日历、统一卡片、简洁设置与隐藏测试工具 |
 | [v0.2.44](docs/RELEASE_v0.2.44.md) | 搜索收起、紧凑布局、指南更新与 release 瘦身 |
 | [v0.2.43](docs/RELEASE_v0.2.43.md) | 本地搜索与统计优化，暂停深色主题 |
