@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.71/youyu-v0.2.71.apk"><img alt="安装包 70.9 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-70.9%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.71/youyu-v0.2.71.apk"><img alt="安装包 71.6 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-71.6%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.71 · 服务标签备注修复与真实页面指南**：排除“极速发货”等错误备注，淘宝、拼多多改用遮挡后的真实页面图。详见 [本次发布说明](docs/RELEASE_v0.2.71.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v0.2.71 · 服务标签备注修复与真实页面指南**：排除“极速发货”等错误备注，四类购物场景改用遮挡后的真实页面图，明确微信、支付宝无需展开。详见 [本次发布说明](docs/RELEASE_v0.2.71.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.71.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.71/youyu-v0.2.71.apk)** | 70.9 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.71.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.71/youyu-v0.2.71.apk)** | 71.6 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
