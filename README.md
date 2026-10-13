@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.56/youyu-v0.2.56.apk"><img alt="安装包 70.5 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-70.5%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.57/youyu-v0.2.57.apk"><img alt="安装包 70.5 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-70.5%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.56 · 分类排序与淘宝金额修复**：分类支持置顶、上移、下移，普通记账与悬浮核对共用；修复实付款货币符号错读。详见 [本次发布说明](docs/RELEASE_v0.2.56.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v0.2.57 · 排序界面与淘宝合计识别**：去掉分类排序行内粉色按钮底材；支持淘宝订单合计，排除状态文字误入备注。详见 [本次发布说明](docs/RELEASE_v0.2.57.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.56.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.56/youyu-v0.2.56.apk)** | 70.5 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.57.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.57/youyu-v0.2.57.apk)** | 70.5 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -94,6 +94,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.57](docs/RELEASE_v0.2.57.md) | 排序界面简化与淘宝合计识别 |
 | [v0.2.56](docs/RELEASE_v0.2.56.md) | 分类排序与淘宝实付款读取修复 |
 | [v0.2.55](docs/RELEASE_v0.2.55.md) | 悬浮识别逐项保留与手动补填 |
 | [v0.2.54](docs/RELEASE_v0.2.54.md) | 淘宝手选日期与外卖备注 |
