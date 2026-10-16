@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.76/youyu-v0.2.76.apk"><img alt="安装包 72.3 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-72.3%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.77/youyu-v0.2.77.apk"><img alt="安装包 73.4 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-73.4%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.76 · 按钮减重与图文指南更新**：精简厚重按钮，增加图片 X 关闭入口，更新操作截图及各平台识别示例。详见 [本次发布说明](docs/RELEASE_v0.2.76.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v0.2.77 · 周期记账、图片备注与存钱计划升级**：新增周期待确认、图片备注、自定义统计月与多种攒钱方式。详见 [本次发布说明](docs/RELEASE_v0.2.77.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.76.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.76/youyu-v0.2.76.apk)** | 72.3 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v0.2.77.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.77/youyu-v0.2.77.apk)** | 73.4 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -59,7 +59,10 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 | 统计 | 周、月、年和自选日期统计，月度日历、年度月表、分类占比与预算 |
 | 设置搜索 | 搜索名称或常用词，跳转并短暂突出对应设置 |
 | 账户与资金 | 转账、还款与退款；退款按退款日冲减支出 |
-| 存钱计划 | 本地目标与分配记录，支持归档，不涉及真实划款 |
+| 存钱计划 | 自由、定额与按期达标，提供建议存入金额；本地记录，不涉及真实划款 |
+| 周期记账 | 定期生成待确认，支持固定或留空金额，确认后入账 |
+| 图片备注 | 每笔最多 3 张，手动与悬浮核对均可添加，随完整备份保存 |
+| 统计周期 | 每个账本自选月起始日，统一月度统计与预算口径 |
 | 数据管理 | 本地备份恢复、自定义 CSV 导入、回收站恢复 |
 | 桌面组件 | 快捷记账、收支预算与存钱愿望，金额默认隐藏 |
 | 动态首页 | 静态街区背景与小鸟；可在设置中暂停小鸟 |
@@ -94,6 +97,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v0.2.77](docs/RELEASE_v0.2.77.md) | 周期记账、图片备注与存钱计划升级 |
 | [v0.2.76](docs/RELEASE_v0.2.76.md) | 按钮减重与图文指南更新 |
 | [v0.2.75](docs/RELEASE_v0.2.75.md) | 抖音悬浮识别使用说明 |
 | [v0.2.74](docs/RELEASE_v0.2.74.md) | 抖音团购多行商品备注修复 |
