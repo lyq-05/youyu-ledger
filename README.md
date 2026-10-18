@@ -7,9 +7,9 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.77/youyu-v0.2.77.apk"><img alt="安装包 73.4 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-73.4%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.1/youyu-v1.0.0-rc.1.apk"><img alt="安装包 74.7 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-74.7%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
-  <img alt="不联网" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
+  <img alt="支持离线记账" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E6%94%AF%E6%8C%81%E7%A6%BB%E7%BA%BF-lightgrey">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v0.2.77 · 周期记账、图片备注与存钱计划升级**：新增周期待确认、图片备注、自定义统计月与多种攒钱方式。详见 [本次发布说明](docs/RELEASE_v0.2.77.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v1.0.0-rc.1 · 正式签名候选版**：用于正式发布前体验，云账号入口暂未开放，备案及应用市场审核尚未完成。详见 [本次发布说明](docs/RELEASE_v1.0.0-rc.1.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v0.2.77.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v0.2.77/youyu-v0.2.77.apk)** | 73.4 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v1.0.0-rc.1.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.1/youyu-v1.0.0-rc.1.apk)** | 74.7 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -35,7 +35,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 1. 下载 APK，在手机文件管理器中打开。
 2. 如系统提示，允许当前来源安装应用，再继续安装。
-3. 同签名体验版可直接覆盖；升级前请在设置中导出本地备份。若签名冲突，不要直接卸载。
+3. 本包使用正式包名，可与预览版并存，数据不会自动迁移。升级前建议导出本地备份；若签名冲突，不要直接卸载。
 4. 首次进入可查看指南，或跳过后开始手动记账。
 
 ---
@@ -79,7 +79,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 自动截图 OCR 开启后可能检查微信其他空文字页面，成功页图片也可能被识别；截图默认仅在内存处理、不保存、不上传；手动开启调试保留后，仅本机保存最近3张原图，关闭即清除，不加入备份。至少间隔2秒，冷却期间合并保留一次重试，重试前重新检查页面；识别结果需要核对。
 
-首次引导不会自动申请权限。悬浮识别的屏幕共享授权由点击入口触发。点击“现在去设置”后，在权限与识别状态页逐项配置。应用清单移除了联网权限；图片识别在本机进行。账务与备份保存在本机，请妥善保管明文导出文件。
+首次引导不会自动申请权限。悬浮识别的屏幕共享授权由点击入口触发。点击“现在去设置”后，在权限与识别状态页逐项配置。应用保留联网权限，无需登录也能离线记账。图片识别在本机进行，ML Kit 可能联网发送运行指标；详见应用内隐私政策。账本不自动上传，云账号入口暂未开放。请妥善保管本地备份和明文导出文件。
 
 ## 常见问题
 
@@ -97,6 +97,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v1.0.0-rc.1](docs/RELEASE_v1.0.0-rc.1.md) | 正式签名候选版，离线记账与识别优化 |
 | [v0.2.77](docs/RELEASE_v0.2.77.md) | 周期记账、图片备注与存钱计划升级 |
 | [v0.2.76](docs/RELEASE_v0.2.76.md) | 按钮减重与图文指南更新 |
 | [v0.2.75](docs/RELEASE_v0.2.75.md) | 抖音悬浮识别使用说明 |
