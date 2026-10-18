@@ -32,3 +32,16 @@ SHA-256：`f726a3c4a0c12c7bd277df5a4782095a073f9b093d539e7a8ffab5e5dd194859`
 [下载诊断 A 包](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.1/youyu-control-a-v0.2.77-formal.apk)
 
 SHA-256：`90bacafded8791385597d3172c5d6c14edfb91c2bacca6ffe8ed086e18fa848c`
+
+## 无障碍诊断对照包 C（2026-10-18）
+
+仅供指定的签名变量对照，不是修复版或正式更新。
+
+- 对 A 包直接重新签名，使用原 `v0.2.77` 预览签名；768 个非签名条目与 A 完全一致，没有重新编译。
+- 包名仍为 `app.youyu.ledger`，版本仍为 `0.2.77`（79）。签名校验及 ZIP 对齐检查通过。
+- 必须先备份所需数据并卸载 A/正式版，再安装 C；不要卸载包名带 `.preview` 的旧预览版。C 的签名不能作为未来正式版的升级签名。
+- 用户反馈 A 仍异常，C 的真机结果待验证；不能提前判定签名是原因。
+
+[下载诊断 C 包](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.1/youyu-control-c-v0.2.77-preview-signature.apk)
+
+SHA-256：`49293350de0b6094f66846826912982425223fd694b2e69f52328680f44292f5`
