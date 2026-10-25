@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.4/youyu-v1.0.0-rc.4.apk"><img alt="安装包 95.8 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-95.8%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.5/youyu-v1.0.0-rc.5.apk"><img alt="安装包 95.9 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-95.9%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="支持离线记账" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E6%94%AF%E6%8C%81%E7%A6%BB%E7%BA%BF-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v1.0.0-rc.4 · 账号、云备份与家庭账本**：备案完成，开放可选账号和家庭协作；个人账本不自动上传。仍为预发布候选，真实家庭跨设备试用与应用市场审核待完成。详见 [本次发布说明](docs/RELEASE_v1.0.0-rc.4.md) 与 [版本历史](CHANGELOG.md)。
+> 当前版本 **v1.0.0-rc.5 · 支付宝识别修复与交互更新**：修复支付页深层嵌套读取限制，交付个人自动/手动云同步、首页家庭记账与交互动效。仍为预发布候选，支付宝线下修复待真机复测。详见 [本次发布说明](docs/RELEASE_v1.0.0-rc.5.md) 与 [版本历史](CHANGELOG.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v1.0.0-rc.4.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.4/youyu-v1.0.0-rc.4.apk)** | 95.8 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v1.0.0-rc.5.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.5/youyu-v1.0.0-rc.5.apk)** | 95.9 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -52,8 +52,8 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 功能 | 说明 |
 | --- | --- |
-| 云账号与备份 | 手机验证码注册、密码登录、可选头像昵称；手动备份不含图片 |
-| 家庭账本 | 独立共同收支；每人只修改自己的账，创建者管理成员 |
+| 云账号与备份 | 手机验证码注册、密码登录、头像昵称；个人自动/手动同步，整份云备份另行管理 |
+| 家庭账本 | 首页选择家庭账本，使用共用记账表单；每人只修改自己的账，创建者管理成员 |
 | 日常入账 | 选择账本、收支类型、分类与金额，账户可选 |
 | 自动识别 | 总开关与渠道分别控制；查看服务连接及最近接收结果，先核对再入账 |
 | 历史补记 | 主动点击悬浮入口读取账单页，或从图片补记 |
@@ -82,7 +82,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 自动截图 OCR 开启后可能检查微信其他空文字页面，成功页图片也可能被识别；截图默认仅在内存处理、不保存、不上传；手动开启调试保留后，仅本机保存最近3张原图，关闭即清除，不加入备份。至少间隔2秒，冷却期间合并保留一次重试，重试前重新检查页面；识别结果需要核对。
 
-首次引导不会自动申请权限。悬浮识别先尝试读取无障碍文字，需要截图补充时才请求屏幕共享。点击“现在去设置”后，在权限与识别状态页逐项配置。应用保留联网权限，无需登录也能离线记账。图片识别在本机进行，ML Kit 可能联网发送运行指标；详见应用内隐私政策。个人账本仅在确认手动云备份时上传；加入家庭账本后，同步的共同账目向成员共享。请妥善保管本地备份和明文导出文件。
+首次引导不会自动申请权限。悬浮识别先尝试读取无障碍文字，需要截图补充时才请求屏幕共享。点击“现在去设置”后，在权限与识别状态页逐项配置。应用保留联网权限，无需登录也能离线记账。图片识别在本机进行，ML Kit 可能联网发送运行指标；详见应用内隐私政策。首次登录按登录页说明默认合并同步个人账本，可在账号页切换手动模式；图片、待确认及设备设置不上传。整份云备份另行操作；加入家庭账本后，同步的共同账目向成员共享。请妥善保管本地备份和明文导出文件。
 
 ## 常见问题
 
@@ -100,6 +100,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
+| [v1.0.0-rc.5](docs/RELEASE_v1.0.0-rc.5.md) | 支付宝识别修复、个人云同步与交互动效 |
 | [v1.0.0-rc.4](docs/RELEASE_v1.0.0-rc.4.md) | 账号、手动云备份与家庭账本 |
 | [v1.0.0-rc.3](docs/RELEASE_v1.0.0-rc.3.md) | 本地诊断增强、设置整理、按需截图与8种森林伙伴 |
 | [v1.0.0-rc.2](docs/RELEASE_v1.0.0-rc.2.md) | 首页等比居中适配；vivo 无障碍问题未解决 |
