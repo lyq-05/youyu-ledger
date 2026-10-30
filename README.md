@@ -7,7 +7,7 @@
   <a href="https://github.com/lyq-05/youyu-ledger/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/youyu-ledger/main?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
   <img alt="平台 Android" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
   <img alt="Android 8.0 及以上" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
-  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.14/youyu-v1.0.0-rc.14.apk"><img alt="安装包 96.0 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-96.0%20MiB-orange"></a>
+  <a href="https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.15/youyu-v1.0.0-rc.15.apk"><img alt="安装包 96.0 MiB" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-96.0%20MiB-orange"></a>
   <img alt="开发体验版" src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E7%89%88-d6a34a">
   <img alt="支持离线记账" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E6%94%AF%E6%8C%81%E7%A6%BB%E7%BA%BF-lightgrey">
 </p>
@@ -19,7 +19,7 @@
 
 Android 本地记账应用：手动入账、通知识别、图片补记与主动悬浮识别，共用“先核对、再入账”的流程。本仓库提供安装包与说明，暂不公开源码。
 
-> 当前版本 **v1.0.0-rc.14 · 历史账单分类完善**：新增独立理发分类，普通商品默认归购物，补充明确服务分类，保留批量核对与入账。详见 [本次发布说明](docs/RELEASE_v1.0.0-rc.14.md)。
+> 当前版本 **v1.0.0-rc.15 · 待确认快捷删除**：新增统一砖红色垃圾桶、选择可能重复项和批量删除，保留已入账流水及去重标记。详见 [本次发布说明](docs/RELEASE_v1.0.0-rc.15.md)。
 
 ---
 
@@ -27,7 +27,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | **[⬇ youyu-v1.0.0-rc.14.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.14/youyu-v1.0.0-rc.14.apk)** | 96.0 MiB | 点击直接下载，无需 root |
+| Android 8.0+ | **[⬇ youyu-v1.0.0-rc.15.apk](https://github.com/lyq-05/youyu-ledger/releases/download/v1.0.0-rc.15/youyu-v1.0.0-rc.15.apk)** | 96.0 MiB | 点击直接下载，无需 root |
 
 [查看 Releases 与历史附件](https://github.com/lyq-05/youyu-ledger/releases)。旧版说明尽量保留，没有可用附件的版本不提供下载链接。
 
@@ -100,7 +100,7 @@ Android 本地记账应用：手动入账、通知识别、图片补记与主动
 
 | 版本 | 主题 |
 | --- | --- |
-| [v1.0.0-rc.14](docs/RELEASE_v1.0.0-rc.14.md) | 微信／支付宝历史账单下载指引 |
+| [v1.0.0-rc.15](docs/RELEASE_v1.0.0-rc.15.md) | 微信／支付宝历史账单下载指引 |
 | [v1.0.0-rc.10](docs/RELEASE_v1.0.0-rc.10.md) | 微信／支付宝原始账单文件导入与预览去重 |
 | [v1.0.0-rc.9](docs/RELEASE_v1.0.0-rc.9.md) | Android 8–9 数据库关闭及启动兼容修复 |
 | [v1.0.0-rc.4](docs/RELEASE_v1.0.0-rc.4.md) | 账号、手动云备份与家庭账本 |
